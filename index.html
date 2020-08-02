@@ -5,26 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pamela Osorio</title>
     <link rel="icon" type="img/png" href="img/Favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Red+Rose:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1><strong>Soy Pamela Osorio</strong></h1>
-    <h2>Frontend web developer</h2>
-    <header>
-        <div class="contenedor">
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img src="img/logopag.png" alt="logo Pamela Osorio">
+            </figure>
             <nav class="menu">
-                <a href=""><ul>Iincio</ul> </a>
-                <a href=""><ul>Blog</ul></a>
-                <a href=""><ul>Tutoriales</ul></a>
-                <a href=""><ul>Proyectos</ul></a>
-                <a href=""><ul>Acerca de mi</ul></a>
-                <a href=""><ul>Contacto</ul></a>
+                <ol>
+                <li>
+                 <a class="link" href="#Inicio">Inicio</a>
+                </li>
+                <li>
+                    <a class="link" href="#Blog">Blog</a>
+                </li>
+                <li>
+                    <a class="link" href="#Tutoriales">Tutoriales</a>
+                </li>
+                <li>
+                    <a class="link" href="#Proyectos">Proyectos</a>
+                </li>
+                <li>
+                    <a class="link" href="#Acercade">Acerca de</a>
+                </li>
+                <li>
+                    <a class="link" href="#Contacto">Contacto</a>
+                </li>
+                </ol>
             </nav>
         </div>
     </header>
-    <footer>
-        
+    <section class="hero">
+        <div class="container">
+            <h1> Hola! Soy <strong>Pamela Osorio</strong> <br> Desarrolladora<strong> Web Frontend</strong> con <br> pasión por la <strong>Programación</strong></h1>
+            <img class="hero-img" src="img/hero.jpg" width="200" height="250" alt="imagen principal del sitio">
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2> Blog (Entradas recientes)</h2>
+            <article class="blog-post">
+                <div class="blog-detalles">
+                    <h3 class="post-title">Lo que debes de saber primero, antes de aprender un lenguaje de programación</h3>
+                    <p class="post-date"> <small> <strong>Fecha</strong> 13/07/2020</small></p>
+                    <p class="post-description"> Conocimientos previos que requieres antes de hacer tu primer ¡Hola mundo! Esta pequeña guía de pasos y requerimentos hará que tus ratos frente al editor sean mucho mejor. </p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <div class="blog-detalles">
+                    <h3 class="post-title">Lenguajes de programación para empezar</h3>
+                    <p class="post-date"> <small> <strong>Fecha</strong> 25/07/2020</small></p>
+                    <p class="post-description">Una lista de Lenguajes de programación junto con su salida profesional, para que puedas iniciarte como desarrollador</p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <div class="blog-detalles">
+                    <h3 class="post-title">Lo que nadie te dice de aprender a programar</h3>
+                    <p class="post-date"> <small> <strong>Fecha</strong> 1/07/2020</small></p>
+                    <p class="post-description"> Una entrada en la que hablo de cosas que nadie me dijo cuando aprendí a programar y tuve que aprender sobre la marcha. Estas series de experiencias te ayudarán a mejorar tus habilidades como desarrollador y facilitará tu camino hacia el nivel master </p>
+                </div>
+            </article>
+        </div>
+    </section>
     </footer>
 </body>
 </html>
